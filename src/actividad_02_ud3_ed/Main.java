@@ -43,7 +43,7 @@ public class Main {
                 }else{
                     System.err.println("Opción errónea");
                 }
-/*                switch(opcion){
+               switch(opcion){
                     case 1:
                         System.out.println("¿Cuánto desea ingresar?: ");
                         float ingresar=Integer.parseInt(dato.readLine());
@@ -57,7 +57,7 @@ public class Main {
                     case 3:
                         System.out.println("Finalizamos la ejecución");
                 }
-*/            } catch (IOException ex) {
+           } catch (IOException ex) {
                 Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
             }
         }while (opcion!=3);

@@ -56,7 +56,11 @@ public class CCuenta {
         return saldo;
     }
 
-    
+    /**
+     * 
+     * @param cantidad Para ingresar cantidad deseada
+     * @throws Exception 
+     */
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0){
@@ -64,7 +68,11 @@ public class CCuenta {
         setSaldo(saldo + cantidad);
     }
 
-   
+   /**
+    * 
+    * @param cantidad Para retirar la cantidad deseada
+    * @throws Exception 
+    */
     public void retirar (double cantidad) throws Exception
     {
         if (cantidad < 0){
