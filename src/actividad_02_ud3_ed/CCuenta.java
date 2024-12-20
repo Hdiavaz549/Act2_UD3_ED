@@ -7,7 +7,7 @@ package actividad_02_ud3_ed;
 
 /**
  * 
- * @author Ana
+ * @author OmenPC
  */
 public class CCuenta {
 
